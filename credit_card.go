@@ -39,6 +39,8 @@ type CreditCard struct {
 	UniqueNumberIdentifier    string             `xml:"unique-number-identifier,omitempty"`
 	BillingAddress            *Address           `xml:"billing-address,omitempty"`
 	Subscriptions             *Subscriptions     `xml:"subscriptions,omitempty"`
+	Verification              *Verification      `xml:"verification,omitempty"`
+	CreditCardVerification    *Verification      `xml:"credit-card-verification,omitempty"`
 	ProductID                 string             `xml:"product-id,omitempty"`
 }
 
