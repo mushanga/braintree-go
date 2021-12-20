@@ -7,5 +7,5 @@ type Verification struct {
 }
 
 type Verifications struct {
-	Verification []*Verification `xml:"verifications"`
+	Verification []*Verification `xml:"verification"`
 }
